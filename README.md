@@ -1,7 +1,7 @@
 ## Setup Notes
 
-42.50
-https://www.youtube.com/watch?v=asB-dUwpH4Y&t=276s
+3.19.15
+
 
 
 1. All components ready to go (including imports)

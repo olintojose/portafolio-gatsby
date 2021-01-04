@@ -1,3 +1,4 @@
+
 /**
  * Configure your Gatsby site with this file.
  *
@@ -11,7 +12,7 @@ module.exports = {
     author: "Olinto Muñoz",
     twitterUsername: "@olintojose",
     image: "/twitter-img.png",
-  
+    
   },
   plugins: [
     `gatsby-transformer-sharp`,
@@ -28,8 +29,9 @@ module.exports = {
     {
       resolve: `gatsby-source-strapi`,
       options: {
-        apiURL: `http://localhost:1337`,
-        queryLimit: 1000, // Default to 100
+      // apiURL: `http://localhost:1337`,
+       apiURL: `https://salty-escarpment-89495.herokuapp.com`,
+       // queryLimit: 1000, // Default to 100
         //   contentTypes : `jobs`, `projects`, `blogs`,
           // singleType : `about`
         //  ONLY ADD TO ARRAY IF YOU HAVE DATA IN STRAPI !!!!
@@ -37,6 +39,22 @@ module.exports = {
        // singleTypes: [],
       },
     },
+/* 
+    {
+      resolve: "gatsby-source-graphql",
+      options: {
+        // This type will contain remote schema Query type
+        typeName: "QUERY",
+        // This is the field under which it's accessible
+        fieldName: "query",
+        // URL to query from
+        //url: "http://localhost:1337/graphql",
+        url: "https://salty-escarpment-89495.herokuapp.com/graphql"
+      },
+    }, */
+
+
+    
     // {
     //   resolve: `gatsby-plugin-prefetch-google-fonts`,
     //   options: {

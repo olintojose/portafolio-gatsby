@@ -3,12 +3,11 @@ import Image from "gatsby-image"
 import { Link } from "gatsby"
 import { graphql, useStaticQuery } from "gatsby"
 import SocialLinks from "../constants/socialLinks"
-import socialLinks from "../constants/socialLinks"
 
 
 const query = graphql`
 {
-  file(relativePath: {eq: "hero-img.png"}) {
+  file(relativePath: {eq: "dev5.jpg"}) {
     childImageSharp {
       fluid {
         ...GatsbyImageSharpFluid
@@ -27,8 +26,8 @@ const Hero = () => {
     <article className="hero-info">
       <div>
         <div className="underline"></div>
-          <h1>I'm jhon</h1>
-          <h4>Freelance web Designer</h4>
+          <h1>Hello</h1> <h2>I'm Olinto</h2> 
+          <h4>Developer, Computer Engineer</h4>
           <Link to='/contact' className="btn">
             contact me
           </Link>
