@@ -20,7 +20,7 @@ export default ({ data }) => {
     <Services />
     <Jobs />
     <Projects projects={projects} title="featured projects" showLink />
-   <Blogs blogs={blogs} title="Latest Articles" showLink />
+   {/* <Blogs blogs={blogs} title="Latest Articles" showLink /> */}
   </Layout>
 }
 export const query = graphql`

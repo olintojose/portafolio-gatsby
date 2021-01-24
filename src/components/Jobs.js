@@ -27,7 +27,6 @@ const {
   allStrapiJobs: { nodes: jobs },
 }= data;
 
-//console.log(jobs)
 
 const [value, serValue] = React.useState(0)
 const { company, position, date, desc }= jobs[value]

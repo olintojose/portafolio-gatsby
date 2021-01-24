@@ -1,6 +1,5 @@
 ## Setup Notes
 
-3.19.15
 
 
 
