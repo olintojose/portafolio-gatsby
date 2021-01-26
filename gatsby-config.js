@@ -12,7 +12,7 @@ module.exports = {
     author: "Olinto Muñoz",
     twitterUsername: "@olintojose",
     image: "/twitter-img.png",
-    
+    siteUrl: "https://portfolio-olto.netlify.app/"
   },
   plugins: [
     `gatsby-transformer-sharp`,
