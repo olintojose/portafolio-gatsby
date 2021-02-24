@@ -1,5 +1,5 @@
 import React from "react"
-import logo from "../assets/olinto.png"
+import logo from "../assets/olinto dev.png"
 import { FaAlignRight } from "react-icons/fa"
 import PageLinks from "../constants/links"
 const Navbar = ({ toggleSidebar }) => {
