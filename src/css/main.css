@@ -16,9 +16,9 @@ Variables
   --colorBlue1: #0089C7;
   --colorBlue2: #587FFC;
   --colorBlue3: #ff7a18;
-  --colorGray1: #262626;
+  --colorGray1: #5b5b5b;
   
-  --colorWhite: #111111;
+  --colorWhite: #000;
   --colorPink: #E8175D;
   --colorPink2: #CC527A;
 
@@ -456,7 +456,7 @@ Hero
 .hero-img {
   display: none;
   border-radius: 15px;
-  height: 30rem;
+  height: 45rem;
   width: 45rem;
   
 }
