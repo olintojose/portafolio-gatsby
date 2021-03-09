@@ -16,8 +16,9 @@ Variables
   --colorBlue1: #0089C7;
   --colorBlue2: #587FFC;
   --colorBlue3: #ff7a18;
-  --colorGray1: #5b5b5b;
-  
+  --colorGray1: #252525;
+  --colorOrange: #ff7a18;
+--colorYellow: #fff209;
   --colorWhite: #000;
   --colorPink: #E8175D;
   --colorPink2: #CC527A;
@@ -89,7 +90,7 @@ a {
 
 .logo-img {
  
-  height: 8rem;
+
   margin-top: 1.25  rem;
  
 }
@@ -219,7 +220,7 @@ p {
   transition: var(--transition);
 }
 .social-link:hover {
-  color: var(--colorBlue3);
+  color: var(--colorOrange);
 }
 /*
 =============== 
@@ -255,12 +256,12 @@ Navbar
   font-size: 2rem;
   background: transparent;
   border-color: transparent;
-  color: var(--colorBlue3);
+  color: var(--colorOrange);
   cursor: pointer;
   transition: var(--transition);
 }
 .toggle-btn:hover {
-  color: var(--colorBlue3);
+  color: var(--colorOrange);
 }
 .nav-links {
   display: none;
@@ -285,8 +286,8 @@ Navbar
     padding: 0.5rem 0;
   }
   .nav-links a:hover {
-    color: var(--colorBlue3);
-    box-shadow: 0px 2px var(--colorBlue3);
+    color: var(--colorOrange);
+    box-shadow: 0px 2px var(--colorOrange);
   }
   .nav-center {
     display: grid;
@@ -517,11 +518,12 @@ Services
 ===============
 */
 .service {
-  background: var(--colorWhite);
+  background: var(--colorBlue1);
   padding: 3rem 1.5rem;
   margin-bottom: 2rem;
   border-radius: var(--radius);
   text-align: center;
+ 
   -webkit-transition: var(--transition);
   transition: var(--transition);
 }
@@ -538,13 +540,14 @@ Services
 .service p {
   -webkit-transition: var(--transition);
   transition: var(--transition);
+  color: var(--colorBlack1);
 }
 .service:hover {
-  background: var(--colorBlue3);
-  color: var(--colorBlue1);
+  background: var(--colorWhite);
+  color: var(--colorOrange);
 }
 .service:hover p {
-  color: var(--clr-primary-9);
+  color: var(--colorOrange);
 }
 .service:hover .underline {
   background: var(--clr-primary-9);
@@ -592,10 +595,11 @@ Jobs
   cursor: pointer;
   padding: 0.25rem 0;
   line-height: 1;
+  color: var(--colorBlue1);
 }
 .job-btn:hover {
-  color: var(--colorBlue3);
-  box-shadow: 0 2px var(--colorBlue3);
+  color: var(--colorOrange);
+  box-shadow: 0 2px var(--colorOrange);
 }
 .active-btn {
   color: var(--colorBlue3);
@@ -703,6 +707,7 @@ Projects
   font-weight: 500;
   margin-bottom: 1.5rem;
   font-size: 1.5rem;
+  color: var(--colorBlue1)
 }
 .project-desc {
   word-spacing: 15px;

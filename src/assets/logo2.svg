@@ -13,7 +13,7 @@
    fill="none"
    version="1.1"
    id="svg3474"
-   sodipodi:docname="logo.svg"
+   sodipodi:docname="logo2.svg"
    inkscape:version="1.0.2 (e86c870879, 2021-01-15, custom)">
   <metadata
      id="metadata3478">
@@ -36,44 +36,57 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="2400"
-     inkscape:window-height="1271"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
      id="namedview3476"
      showgrid="false"
      inkscape:zoom="7.7388535"
-     inkscape:cx="78.5"
-     inkscape:cy="21.5"
+     inkscape:cx="74.502507"
+     inkscape:cy="25.291745"
      inkscape:window-x="-9"
-     inkscape:window-y="-9"
+     inkscape:window-y="1341"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g3455" />
+     inkscape:current-layer="g3455"
+     inkscape:document-rotation="0" />
   <g
      filter="url(#filter0_d)"
      id="g3455">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:24px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
-       x="1.4478823"
-       y="37.739094"
+       style="font-style:normal;font-weight:normal;font-size:24.5001px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.02084"
+       x="0.074866489"
+       y="35.636021"
        id="text4043"
-       transform="matrix(0.97754957,-0.21782489,0.21070556,0.97601504,0,0)"><tspan
+       transform="matrix(0.99860853,-0.1686057,0.16794161,0.97303804,0,0)"><tspan
          sodipodi:role="line"
          id="tspan4041"
-         x="1.4478823"
-         y="37.739094"
-         style="font-size:24px;fill:#102a42;fill-opacity:1">Olinto</tspan></text>
+         x="0.074866489"
+         y="35.636021"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24.5001px;font-family:Verdana;-inkscape-font-specification:'Verdana Bold';fill:#102a42;fill-opacity:1;stroke-width:1.02084">Olinto</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:25.0116px;line-height:1.25;font-family:sans-serif;fill:#2dafba;fill-opacity:1;stroke:none;stroke-width:1.04215"
-       x="67.879227"
-       y="52.141529"
+       style="font-style:normal;font-weight:normal;font-size:23.2716px;line-height:1.25;font-family:sans-serif;fill:#2dafba;fill-opacity:1;stroke:none;stroke-width:0.969649"
+       x="59.702515"
+       y="52.716156"
        id="text4043-5"
-       transform="matrix(0.95123566,-0.22385055,0.20503374,1.0030144,0,0)"><tspan
+       transform="matrix(1.0405386,-0.20463887,0.22428251,0.91693197,0,0)"><tspan
          sodipodi:role="line"
          id="tspan4041-1"
-         x="67.879227"
-         y="52.141529"
-         style="font-size:25.0116px;fill:#2dafba;fill-opacity:1;stroke-width:1.04215">.DEV</tspan></text>
+         x="59.702515"
+         y="52.716156"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24.8116px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#2dafba;fill-opacity:1;stroke-width:0.969649">.DEV</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:23.6724px;line-height:1.25;font-family:sans-serif;fill:#2dafba;fill-opacity:1;stroke:none;stroke-width:0.98635"
+       x="35.366798"
+       y="51.896957"
+       id="text4043-5-0"
+       transform="matrix(1.0268913,-0.20735849,0.22134091,0.92911789,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan4041-1-2"
+         x="35.366798"
+         y="51.896957"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#2dafba;fill-opacity:1;stroke-width:0.98635">&lt;&gt;</tspan></text>
   </g>
   <defs
      id="defs3472">

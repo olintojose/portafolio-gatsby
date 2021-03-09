@@ -1,22 +1,22 @@
 import React from "react"
-import { FaCode, FaSketch, FaAndroid } from "react-icons/fa"
+import { FaCode, FaDatabase, FaAndroid } from "react-icons/fa"
 export default [
   {
     id: 1,
     icon: <FaCode className="service-icon" />,
-    title: "web development",
-    text: `I'm baby meditation tofu chillwave, distillery messenger bag thundercats chicharrones kale chips gochujang. Banh mi direct trade marfa salvia.`,
+    title: "Programación Full Stack",
+    text: `Analisis, diseño y programacion de paginas, programas, servicios y herramientas que aporten valor y sirvan de solucion o mejora a los procesos de su empresa.`,
   },
   {
     id: 2,
-    icon: <FaSketch className="service-icon" />,
-    title: "web design",
-    text: `I'm baby meditation tofu chillwave, distillery messenger bag thundercats chicharrones kale chips gochujang. Banh mi direct trade marfa salvia.`,
+    icon: <FaDatabase className="service-icon" />,
+    title: "Bases de datos",
+    text: `Administracion, Diseño, configuración y mantenimiento de bases de datos relacionales como SQL, Mysql, Postgre y no relacionales como MongoDB.`,
   },
   {
     id: 3,
     icon: <FaAndroid className="service-icon" />,
-    title: "app design",
-    text: `I'm baby meditation tofu chillwave, distillery messenger bag thundercats chicharrones kale chips gochujang. Banh mi direct trade marfa salvia.`,
+    title: "Aplicaciones Moviles",
+    text: `Diseño de aplicaciones moviles hibridas que permiten el desarrollo de aplicaciones tanto como para IOS o Android con un solo código`,
   },
 ]
